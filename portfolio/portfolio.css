@@ -1,0 +1,105 @@
+/* This is for a cleaner design*/
+* {
+    box-sizing: border-box;
+    margin:0%;
+}
+
+/*this is for background colors and heading design*/
+body{
+    background-color:#EFE1CE;
+}
+
+.heading {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:black;
+    background-color: #363945;
+    padding: 10px;
+}
+
+.heading>p , h1 {
+    color:#b6b5b5;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+/*this is for all my paragraph lines*/
+p {
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+}
+ /*This is to give my subheadings more of a presence*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/*this is for styling each section*/
+
+.intro {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.aboutme { 
+    padding: 50px;
+    margin: auto;
+}
+
+.contact  {
+    padding: 50px;
+    margin: auto;
+}
+
+li {
+    font-size: 20px;
+}
+
+/*Styling for my hr*/
+
+hr {
+    align-items: center;
+    display: block;
+    border:none;
+    height: 105px;
+    background-image: url("black-and-white-buddhist-symbol-lotus-flower.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*styling for my image*/
+.image {
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 400px;
+ height: 400px;
+ padding-top:20px;
+}
+
+/*link styles*/
+
+a:link {color:blue;}
+a:visited {color:red;}
+a:hover {color:black;}
+a:active {color: white;}
+
+/*footer styles*/
+footer> div> p {
+    text-align: center;
+    background-color: #363945;
+    color:#c4c4c4;
+}
